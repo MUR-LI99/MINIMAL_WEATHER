@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header id="header">
+       
+        <img src="cloud (1).png" alt="applogo" id="applogo">
+        <p id="weatherman">SKYTYM</p>
+       
+           <section id="section">
+            <form action="" id="form">
+                <input type="text" id="userlocation" placeholder="enter loction">
+                <button type="submit"id="search"></button>
+           </form>
+           
+          
+          
+        </section>
+       
+             <img src="user (1).png" alt="login" class="login">
+
+    </header>
+   
+    <article>
+        <div id="weatherblock">
+          <img src="storm.gif" alt="" id="weatherblockimg">
+        </div>
+        <div id="weatherinfo">
+            <p class="temperature" style="color: aliceblue;">0<s id="deg">&deg;c</s></p> 
+            <div class="weatherdescription">strom</div>
+        </div>
+        <div id="description">
+            <div class="humidity">
+                <img src="humidity.png" alt="">
+                <p class="humidityper">0<s style="color: rgb(70,191,188)" >%</s></p>
+                <p style="margin-top: 5px;">HUMIDITY</p>
+            </div>
+            <div class="wind">
+                <img src="wind.png" alt="">
+                <p class="windspeed">0<s style="color: rgb(70,191,188)">km/h</s></p>
+                <p style="margin-top: 5px;">WIND_SPEED</p>
+            </div>
+                
+
+        </div>
+        
+    </article>
+    <!-- <div id="map">map</div>     -->
+
+
+
+
+
+
+
+
+
+
+<script src="weather.js"></script>
+
+</body>
+</html>
